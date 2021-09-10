@@ -1,2 +1,2 @@
-"use strict";console.log("It works!");
+"use strict";var shareBtn=document.querySelector(".share__photo"),shareBar=document.querySelector(".share__container"),shareTriangle=document.querySelector(".share__triangle");shareBtn.addEventListener("click",(function(){shareBar.classList.contains("active")?(shareBar.style.display="none",shareBtn.style.color="var(--v-dark-grayish-blue)",shareBtn.style.backgroundColor="var(--l-grayish-blue)",shareBar.classList.remove("active"),shareTriangle.style.display="none"):(shareBar.style.display="flex",shareBtn.style.color="white",shareBtn.style.backgroundColor="var(--v-dark-grayish-blue)",shareBar.classList.add("active"),shareTriangle.style.display="block")}));
 //# sourceMappingURL=script.js.map

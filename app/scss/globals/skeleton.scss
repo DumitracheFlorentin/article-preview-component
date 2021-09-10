@@ -10,6 +10,12 @@ html {
 }
 
 body {
+  height: 55.4em;
   margin: 0;
   padding: 0;
+  background-color: var(--l-grayish-blue);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
