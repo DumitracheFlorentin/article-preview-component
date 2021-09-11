@@ -1,3 +1,5 @@
+@use '../util';
+
 // CSS Vars
 :root {
   --v-dark-grayish-blue: hsl(217, 19%, 35%);
@@ -10,4 +12,15 @@
     d - desaturated
     l - light
   */
+
+  --active-btn-color: white;
+  --active-btn-background: hsl(217, 19%, 35%);
+
+  @include util.breakpoint-down(large) {
+    --active-btn-color: white;
+    --active-btn-background: hsla(212, 23%, 69%, 0.5);
+  }
+
+  --no-active-btn-color: hsl(217, 19%, 35%);
+  --no-active-btn-background: hsl(210, 46%, 95%);
 }
